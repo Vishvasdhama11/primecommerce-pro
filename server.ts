@@ -10,7 +10,7 @@ import adminRoutes from './src/server/routes/adminRoutes';
 import razorpayRoutes from './src/server/routes/razorpayRoutes';
 
 const app = express();
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 // Security & Parsing Middlewares
 app.use(cors());
@@ -51,9 +51,9 @@ async function startServer() {
     });
   }
 
-  app.listen(PORT, '127.0.0.1', () => {
-    console.log(`🚀 NexusStore Full-Stack Server listening on http://localhost:${PORT}`);
-  });
+  app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 NexusStore Full-Stack Server listening on port ${PORT}`);
+});
 }
 
 startServer().catch((err) => {
