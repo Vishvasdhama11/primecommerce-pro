@@ -1,0 +1,6 @@
+{
+  "name": "NexusStore E-Commerce Platform",
+  "description": "Full-stack E-Commerce platform featuring complete User and Admin panels, real-time product management, analytics, order tracking, coupons, and Razorpay & UPI payment integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

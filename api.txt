@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyDXCVNKB2jjBv_d5s75-zAyJedGrZ4kEj8",
+  authDomain: "primecommerce-pro-f4bfd.firebaseapp.com",
+  projectId: "primecommerce-pro-f4bfd",
+  storageBucket: "primecommerce-pro-f4bfd.firebasestorage.app",
+  messagingSenderId: "192571368487",
+  appId: "1:192571368487:web:d88f995e0681b9367bda02",
+  measurementId: "G-XZF1DZPVKF"
+};

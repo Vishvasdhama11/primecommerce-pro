@@ -1,0 +1,2174 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "name": "Vishvas Dhama",
+      "email": "vishvasdhama@gmail.com",
+      "phone": "+91 9900000000",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "isVerified": true,
+      "createdAt": "2026-07-25T03:29:24.001Z"
+    },
+    {
+      "id": "usr_otp_1784948992743",
+      "name": "User 4139",
+      "email": "user_7302424139@nexusstore.com",
+      "phone": "7302424139",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "isVerified": true,
+      "createdAt": "2026-07-25T03:09:52.743Z"
+    },
+    {
+      "id": "usr_otp_1784949017089",
+      "name": "User 1370",
+      "email": "user_9761821370@nexusstore.com",
+      "phone": "9761821370",
+      "role": "USER",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "isVerified": true,
+      "createdAt": "2026-07-25T03:10:17.089Z"
+    },
+    {
+      "id": "usr_1784951091634_0mhr",
+      "name": "vansh",
+      "email": "user_7302424123@nexusstore.com",
+      "phone": "7302424123",
+      "role": "USER",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=vansh",
+      "isVerified": true,
+      "createdAt": "2026-07-25T03:44:51.634Z"
+    },
+    {
+      "id": "usr_g_1784951139516",
+      "name": "vishu",
+      "email": "vishu@gmail.com",
+      "role": "USER",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=vishu",
+      "isVerified": true,
+      "createdAt": "2026-07-25T03:45:39.516Z"
+    },
+    {
+      "id": "usr_g_1784991377156",
+      "name": "vishvas dhama",
+      "email": "vdhama028@gmail.com",
+      "role": "USER",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=vishvas%20dhama",
+      "isVerified": true,
+      "createdAt": "2026-07-25T14:56:17.156Z"
+    },
+    {
+      "id": "usr_g_1784996080486",
+      "name": "Vishvas Dhama",
+      "email": "vishvasdhama25@gmail.com",
+      "role": "ADMIN",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vishvas%20Dhama",
+      "isVerified": true,
+      "createdAt": "2026-07-25T16:14:40.486Z",
+      "phone": "+91 9900000000"
+    }
+  ],
+  "userPasswords": {
+    "usr_admin_001": "$2b$10$Rpn6qodgDnXRjSzcS6DPqOs011TdUIztpSeYn6Bn4B3TEETyh0OHG",
+    "usr_otp_1784948992743": "$2b$10$EaPNduF6HE2rD4aXKZg7bOit6u3sGgah5T4oYmLd5hA2xIz2FEQkm",
+    "usr_otp_1784949017089": "$2b$10$rzBP31bmNu.d6IrPNQ0JzuVkGlbP0FedMWtn8G.isDmixnCN3O7ni",
+    "usr_1784951091634_0mhr": "$2b$10$vMDEa8.izthqkP1jQnWFGOEjNPX9Zn4limDRkqBquUIdu0hW9HuIi",
+    "usr_g_1784996080486": "$2b$10$.3PqxhwxmkjlgDpzz6fYCuxBcbqK6jKSh2IY8HaPTDi6Nktj0zyDO"
+  },
+  "products": [
+    {
+      "id": "prod_1",
+      "title": "iPhone 15 Pro Max 256GB - Titanium Natural",
+      "slug": "iphone-15-pro-max-256gb",
+      "description": "Forged in titanium and featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever with 5x Optical Zoom.",
+      "price": 139900,
+      "discountPrice": 129900,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?w=800",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=xqyUdNxWazA",
+      "category": "Smartphones & Mobile",
+      "brand": "Apple",
+      "stock": 10,
+      "sku": "IPH15PM-256-NAT",
+      "barcode": "194253102931",
+      "weight": "221g",
+      "tags": [
+        "smartphone",
+        "apple",
+        "flagship",
+        "titanium",
+        "5g"
+      ],
+      "specifications": [
+        {
+          "key": "Display",
+          "value": "6.7-inch Super Retina XDR OLED 120Hz"
+        },
+        {
+          "key": "Processor",
+          "value": "Apple A17 Pro (3nm)"
+        },
+        {
+          "key": "Main Camera",
+          "value": "48MP + 12MP Periscope (5x Zoom) + 12MP Ultra-wide"
+        },
+        {
+          "key": "Battery",
+          "value": "4422 mAh with 25W Fast Charge"
+        },
+        {
+          "key": "OS",
+          "value": "iOS 17"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v1_1",
+          "storage": "256GB",
+          "color": "Natural Titanium",
+          "price": 129900,
+          "stock": 10,
+          "sku": "IPH15PM-256-NAT"
+        },
+        {
+          "id": "v1_2",
+          "storage": "512GB",
+          "color": "Black Titanium",
+          "price": 149900,
+          "stock": 8,
+          "sku": "IPH15PM-512-BLK"
+        },
+        {
+          "id": "v1_3",
+          "storage": "1TB",
+          "color": "Blue Titanium",
+          "price": 179900,
+          "stock": 7,
+          "sku": "IPH15PM-1TB-BLU"
+        }
+      ],
+      "isFeatured": true,
+      "isTrending": true,
+      "rating": 4.8,
+      "numReviews": 42,
+      "createdAt": "2026-07-25T03:02:06.046Z",
+      "metaTitle": "Buy iPhone 15 Pro Max Online | Best Price & Offers",
+      "metaDescription": "Shop the flagship iPhone 15 Pro Max with Titanium design and 5x Zoom camera at NexusStore."
+    },
+    {
+      "id": "prod_2",
+      "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+      "slug": "sony-wh-1000xm5-wireless-headphones",
+      "description": "Industry-leading noise cancellation optimized with two processors and 8 microphones. Magnificent sound quality engineered with the Auto NC Optimizer.",
+      "price": 34990,
+      "discountPrice": 28990,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800"
+      ],
+      "category": "Audio & Wireless",
+      "brand": "Sony",
+      "stock": 31,
+      "sku": "SONY-XM5-BLK",
+      "weight": "250g",
+      "tags": [
+        "audio",
+        "headphones",
+        "noise-canceling",
+        "wireless",
+        "bluetooth"
+      ],
+      "specifications": [
+        {
+          "key": "Noise Canceling",
+          "value": "HD Noise Canceling Processor QN1 & V1"
+        },
+        {
+          "key": "Battery Life",
+          "value": "Up to 30 Hours with ANC On"
+        },
+        {
+          "key": "Driver Size",
+          "value": "30mm High Performance"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth 5.2, 3.5mm AUX, Multipoint"
+        }
+      ],
+      "variants": [
+        {
+          "id": "v2_1",
+          "color": "Black",
+          "price": 28990,
+          "stock": 20,
+          "sku": "SONY-XM5-BLK"
+        },
+        {
+          "id": "v2_2",
+          "color": "Silver",
+          "price": 28990,
+          "stock": 12,
+          "sku": "SONY-XM5-SLV"
+        },
+        {
+          "id": "v2_3",
+          "color": "Midnight Blue",
+          "price": 29990,
+          "stock": 8,
+          "sku": "SONY-XM5-MBLU"
+        }
+      ],
+      "isFeatured": true,
+      "isTrending": true,
+      "rating": 4.9,
+      "numReviews": 88,
+      "createdAt": "2026-07-25T03:02:06.046Z"
+    },
+    {
+      "id": "prod_3",
+      "title": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+      "slug": "macbook-pro-16-m3-max",
+      "description": "The world’s best pro laptop packed with M3 Max silicon, 16-core CPU, 40-core GPU, stunning Liquid Retina XDR display, and up to 22 hours of battery life.",
+      "price": 349900,
+      "discountPrice": 329900,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+        "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800"
+      ],
+      "category": "Laptops & Computers",
+      "brand": "Apple",
+      "stock": 7,
+      "sku": "MBP16-M3MAX-36-1TB",
+      "weight": "2.14kg",
+      "tags": [
+        "laptop",
+        "apple",
+        "macbook",
+        "m3max",
+        "pro-workstation"
+      ],
+      "specifications": [
+        {
+          "key": "Processor",
+          "value": "Apple M3 Max (16-core CPU, 40-core GPU)"
+        },
+        {
+          "key": "RAM",
+          "value": "36GB Unified Memory"
+        },
+        {
+          "key": "Storage",
+          "value": "1TB PCIe Gen4 NVMe SSD"
+        },
+        {
+          "key": "Display",
+          "value": "16.2-inch Liquid Retina XDR (3456 x 2234) 120Hz ProMotion"
+        }
+      ],
+      "isFeatured": true,
+      "isTrending": false,
+      "rating": 5,
+      "numReviews": 19,
+      "createdAt": "2026-07-25T03:02:06.046Z"
+    },
+    {
+      "id": "prod_4",
+      "title": "Samsung Galaxy Watch 6 Classic 47mm LTE",
+      "slug": "samsung-galaxy-watch-6-classic",
+      "description": "Sophisticated rotating bezel design, Advanced Sleep Tracking, ECG & Blood Pressure monitoring, customized HR zones, and sapphire crystal glass.",
+      "price": 43999,
+      "discountPrice": 36999,
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+        "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=800"
+      ],
+      "category": "Wearable Tech",
+      "brand": "Samsung",
+      "stock": 29,
+      "sku": "GW6C-47-LTE-BLK",
+      "weight": "59g",
+      "tags": [
+        "smartwatch",
+        "samsung",
+        "fitness",
+        "lte",
+        "health"
+      ],
+      "specifications": [
+        {
+          "key": "Display",
+          "value": "1.5-inch Super AMOLED Sapphire Crystal"
+        },
+        {
+          "key": "Bezel",
+          "value": "Physical Rotating Stainless Steel Bezel"
+        },
+        {
+          "key": "Sensors",
+          "value": "BioActive Sensor (ECG, BIA, Optical Heart Rate)"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "5ATM + IP68 / MIL-STD-810H"
+        }
+      ],
+      "isFeatured": false,
+      "isTrending": true,
+      "rating": 4.7,
+      "numReviews": 31,
+      "createdAt": "2026-07-25T03:02:06.046Z"
+    },
+    {
+      "id": "prod_5",
+      "title": "Bose Smart Soundbar Ultra with Dolby Atmos",
+      "slug": "bose-smart-soundbar-ultra",
+      "description": "Immersive spatial audio experience with nine speakers and custom TrueSpace technology. Built-in Voice Control with Alexa and Google Assistant.",
+      "price": 99900,
+      "discountPrice": 89900,
+      "images": [
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800"
+      ],
+      "category": "Audio & Wireless",
+      "brand": "Bose",
+      "stock": 17,
+      "sku": "BOSE-SND-ULTRA",
+      "weight": "5.8kg",
+      "tags": [
+        "audio",
+        "home-theater",
+        "soundbar",
+        "bose",
+        "dolby-atmos"
+      ],
+      "specifications": [
+        {
+          "key": "Audio Decoding",
+          "value": "Dolby Atmos, Dolby Digital, TrueSpace"
+        },
+        {
+          "key": "Connectivity",
+          "value": "eARC HDMI, Optical, Wi-Fi, Bluetooth 5.0, AirPlay 2"
+        },
+        {
+          "key": "Microphone",
+          "value": "Built-in noise-rejecting microphone array"
+        }
+      ],
+      "isFeatured": true,
+      "isTrending": true,
+      "rating": 4.8,
+      "numReviews": 24,
+      "createdAt": "2026-07-25T03:02:06.046Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Smartphones & Mobile",
+      "slug": "smartphones",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600",
+      "productCount": 4
+    },
+    {
+      "id": "cat_2",
+      "name": "Laptops & Computers",
+      "slug": "laptops",
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=600",
+      "productCount": 3
+    },
+    {
+      "id": "cat_3",
+      "name": "Audio & Wireless",
+      "slug": "audio",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+      "productCount": 4
+    },
+    {
+      "id": "cat_4",
+      "name": "Wearable Tech",
+      "slug": "wearables",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+      "productCount": 3
+    },
+    {
+      "id": "cat_5",
+      "name": "Smart Home & Cameras",
+      "slug": "smart-home",
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=600",
+      "productCount": 2
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand_1",
+      "name": "Apple",
+      "logo": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=100"
+    },
+    {
+      "id": "brand_2",
+      "name": "Sony",
+      "logo": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=100"
+    },
+    {
+      "id": "brand_3",
+      "name": "Samsung",
+      "logo": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=100"
+    },
+    {
+      "id": "brand_4",
+      "name": "Bose",
+      "logo": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=100"
+    },
+    {
+      "id": "brand_5",
+      "name": "Logitech",
+      "logo": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=100"
+    }
+  ],
+  "coupons": [
+    {
+      "id": "c1",
+      "code": "NEXUS10",
+      "discountType": "PERCENTAGE",
+      "discountValue": 10,
+      "minOrderAmount": 2000,
+      "maxDiscount": 5000,
+      "expiresAt": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "id": "c2",
+      "code": "WELCOME500",
+      "discountType": "FLAT",
+      "discountValue": 500,
+      "minOrderAmount": 3000,
+      "expiresAt": "2026-12-31",
+      "isActive": true
+    },
+    {
+      "id": "c3",
+      "code": "FESTIVE20",
+      "discountType": "PERCENTAGE",
+      "discountValue": 20,
+      "minOrderAmount": 10000,
+      "maxDiscount": 15000,
+      "expiresAt": "2026-12-31",
+      "isActive": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-2026-85241",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 179900,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Blue Titanium",
+            "storage": "1TB"
+          }
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 179900,
+      "discount": 0,
+      "gstAmount": 32382,
+      "shippingFee": 0,
+      "totalAmount": 212282,
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:55:48.099Z",
+      "updatedAt": "2026-07-26T04:56:25.197Z",
+      "paymentDetails": {
+        "razorpayOrderId": "order_rzp_1785041749774",
+        "razorpayPaymentId": "pay_rzp_1utwu4e2",
+        "razorpaySignature": "sig_verified_1785041749774"
+      }
+    },
+    {
+      "id": "ORD-2026-54443",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 329900,
+      "discount": 0,
+      "gstAmount": 59382,
+      "shippingFee": 0,
+      "totalAmount": 389282,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PAID",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:37:29.058Z",
+      "updatedAt": "2026-07-26T04:38:50.722Z",
+      "paymentDetails": {
+        "razorpayOrderId": "order_rzp_1785040650729",
+        "razorpayPaymentId": "pay_rzp_xb5jl8b3",
+        "razorpaySignature": "sig_verified_1785040650729"
+      },
+      "trackingNumber": "TRACK-990991",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-97170",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 2
+        },
+        {
+          "productId": "prod_4",
+          "productTitle": "Samsung Galaxy Watch 6 Classic 47mm LTE",
+          "productImage": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800",
+          "price": 36999,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 696799,
+      "discount": 0,
+      "gstAmount": 125424,
+      "shippingFee": 0,
+      "totalAmount": 822223,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:37:12.199Z",
+      "updatedAt": "2026-07-26T04:38:53.975Z",
+      "trackingNumber": "TRACK-798425",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-79501",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 4
+        },
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 4
+        },
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 965460,
+      "discount": 0,
+      "gstAmount": 173783,
+      "shippingFee": 0,
+      "totalAmount": 1139243,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:34:03.359Z",
+      "updatedAt": "2026-07-26T04:39:56.555Z",
+      "trackingNumber": "TRACK-480259",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-75749",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 2
+        },
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 618690,
+      "discount": 0,
+      "gstAmount": 111364,
+      "shippingFee": 0,
+      "totalAmount": 730054,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:33:09.510Z",
+      "updatedAt": "2026-07-26T04:39:53.933Z",
+      "trackingNumber": "TRACK-526735",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-39183",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 2
+        },
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 3
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 447680,
+      "discount": 0,
+      "gstAmount": 80582,
+      "shippingFee": 0,
+      "totalAmount": 528262,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:22:39.326Z",
+      "updatedAt": "2026-07-26T04:39:49.258Z",
+      "trackingNumber": "TRACK-339458",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-47107",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 158890,
+      "discount": 0,
+      "gstAmount": 28600,
+      "shippingFee": 0,
+      "totalAmount": 187490,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:09:24.492Z",
+      "updatedAt": "2026-07-26T04:39:47.481Z",
+      "trackingNumber": "TRACK-461569",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-59932",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 129900,
+      "discount": 0,
+      "gstAmount": 23382,
+      "shippingFee": 0,
+      "totalAmount": 153282,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:07:57.079Z",
+      "updatedAt": "2026-07-26T04:39:45.926Z",
+      "trackingNumber": "TRACK-151019",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-61305",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 129900,
+      "discount": 0,
+      "gstAmount": 23382,
+      "shippingFee": 0,
+      "totalAmount": 153282,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:05:57.848Z",
+      "updatedAt": "2026-07-26T04:39:34.434Z",
+      "trackingNumber": "TRACK-620658",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-77027",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 129900,
+      "discount": 0,
+      "gstAmount": 23382,
+      "shippingFee": 0,
+      "totalAmount": 153282,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T04:04:22.648Z",
+      "updatedAt": "2026-07-26T04:39:32.637Z",
+      "trackingNumber": "TRACK-797877",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-61645",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 158890,
+      "discount": 0,
+      "gstAmount": 28600,
+      "shippingFee": 0,
+      "totalAmount": 187490,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T03:54:46.486Z",
+      "updatedAt": "2026-07-26T04:39:36.415Z",
+      "trackingNumber": "TRACK-946153",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-68026",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1785037239030",
+        "userId": "usr_admin_001",
+        "fullName": "vis",
+        "phone": "dsa",
+        "street": "sd",
+        "landmark": "",
+        "city": "fsa",
+        "state": "asf",
+        "pincode": "sdf",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 158890,
+      "discount": 0,
+      "gstAmount": 28600,
+      "shippingFee": 0,
+      "totalAmount": 187490,
+      "paymentMethod": "UPI",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T03:54:30.088Z",
+      "updatedAt": "2026-07-26T04:39:40.593Z",
+      "trackingNumber": "TRACK-136910",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-86922",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 2
+        },
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784997591500",
+        "userId": "usr_admin_001",
+        "fullName": "sdfxc",
+        "phone": "fdsz",
+        "street": "dsfsz",
+        "landmark": "",
+        "city": "dsf",
+        "state": "dsf",
+        "pincode": "dszfd",
+        "country": "India",
+        "isDefault": false
+      },
+      "subtotal": 618690,
+      "discount": 0,
+      "gstAmount": 111364,
+      "shippingFee": 0,
+      "totalAmount": 730054,
+      "paymentMethod": "COD",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T03:53:53.585Z",
+      "updatedAt": "2026-07-26T03:54:21.254Z"
+    },
+    {
+      "id": "ORD-2026-36347",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 2
+        },
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": false
+      },
+      "subtotal": 618690,
+      "discount": 0,
+      "gstAmount": 111364,
+      "shippingFee": 0,
+      "totalAmount": 730054,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-30",
+      "createdAt": "2026-07-26T03:53:37.686Z",
+      "updatedAt": "2026-07-26T04:39:27.926Z",
+      "trackingNumber": "TRACK-902227",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-56240",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        },
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 2
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 589700,
+      "discount": 0,
+      "gstAmount": 106146,
+      "shippingFee": 0,
+      "totalAmount": 695846,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-29",
+      "createdAt": "2026-07-25T16:31:30.295Z",
+      "updatedAt": "2026-07-26T04:39:25.591Z",
+      "trackingNumber": "TRACK-717133",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-23702",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_3",
+          "productTitle": "MacBook Pro 16-inch M3 Max (36GB RAM / 1TB SSD)",
+          "productImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800",
+          "price": 329900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 329900,
+      "discount": 0,
+      "gstAmount": 59382,
+      "shippingFee": 0,
+      "totalAmount": 389282,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-29",
+      "createdAt": "2026-07-25T16:30:52.260Z",
+      "updatedAt": "2026-07-26T04:39:23.687Z",
+      "trackingNumber": "TRACK-214967",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-52877",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Natural Titanium",
+            "storage": "256GB"
+          }
+        },
+        {
+          "productId": "prod_5",
+          "productTitle": "Bose Smart Soundbar Ultra with Dolby Atmos",
+          "productImage": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+          "price": 89900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 219800,
+      "discount": 0,
+      "gstAmount": 39564,
+      "shippingFee": 0,
+      "totalAmount": 259364,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PAID",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-29",
+      "createdAt": "2026-07-25T16:30:43.113Z",
+      "updatedAt": "2026-07-26T04:39:18.827Z",
+      "paymentDetails": {
+        "razorpayOrderId": "order_rzp_1784997044618",
+        "razorpayPaymentId": "pay_rzp_ltzmtdq8",
+        "razorpaySignature": "sig_verified_1784997044618"
+      },
+      "trackingNumber": "TRACK-728578",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-80941",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Natural Titanium",
+            "storage": "256GB"
+          }
+        },
+        {
+          "productId": "prod_5",
+          "productTitle": "Bose Smart Soundbar Ultra with Dolby Atmos",
+          "productImage": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+          "price": 89900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 219800,
+      "discount": 0,
+      "gstAmount": 39564,
+      "shippingFee": 0,
+      "totalAmount": 259364,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-29",
+      "createdAt": "2026-07-25T16:28:19.437Z",
+      "updatedAt": "2026-07-26T04:39:15.574Z",
+      "trackingNumber": "TRACK-317110",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-99067",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Natural Titanium",
+            "storage": "256GB"
+          }
+        },
+        {
+          "productId": "prod_5",
+          "productTitle": "Bose Smart Soundbar Ultra with Dolby Atmos",
+          "productImage": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+          "price": 89900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 219800,
+      "discount": 0,
+      "gstAmount": 39564,
+      "shippingFee": 0,
+      "totalAmount": 259364,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-29",
+      "createdAt": "2026-07-25T16:28:14.452Z",
+      "updatedAt": "2026-07-26T04:39:11.902Z",
+      "trackingNumber": "TRACK-873865",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-52499",
+      "userId": "usr_admin_001",
+      "userEmail": "vishvasdhama@gmail.com",
+      "userName": "Vishvas Dhama",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "iPhone 15 Pro Max 256GB - Titanium Natural",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 129900,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Natural Titanium",
+            "storage": "256GB"
+          }
+        },
+        {
+          "productId": "prod_5",
+          "productTitle": "Bose Smart Soundbar Ultra with Dolby Atmos",
+          "productImage": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800",
+          "price": 89900,
+          "quantity": 1
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1784996883805",
+        "userId": "usr_admin_001",
+        "fullName": "vishvas",
+        "phone": "7302424139",
+        "street": "bianuli",
+        "landmark": "",
+        "city": "binauli",
+        "state": "uttar pardesh",
+        "pincode": "250345",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 219800,
+      "discount": 0,
+      "gstAmount": 39564,
+      "shippingFee": 0,
+      "totalAmount": 259364,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PENDING",
+      "orderStatus": "CANCELLED",
+      "estimatedDelivery": "2026-07-29",
+      "createdAt": "2026-07-25T16:28:08.723Z",
+      "updatedAt": "2026-07-26T04:39:08.418Z",
+      "trackingNumber": "TRACK-655421",
+      "carrier": "BlueDart Express"
+    },
+    {
+      "id": "ORD-2026-90123",
+      "userId": "usr_demo_003",
+      "userEmail": "customer@nexusstore.com",
+      "userName": "Rahul Sharma",
+      "items": [
+        {
+          "productId": "prod_1",
+          "productTitle": "Apple iPhone 15 Pro Max (256GB, Natural Titanium)",
+          "productImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800",
+          "price": 139900,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Natural Titanium",
+            "storage": "256GB"
+          }
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_demo_002",
+        "fullName": "Alex Johnson",
+        "phone": "+91 9123456789",
+        "street": "Flat 402, Green Park Heights, MG Road",
+        "landmark": "Near Cyber City Metro Station",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 139900,
+      "discount": 0,
+      "gstAmount": 25182,
+      "shippingFee": 0,
+      "totalAmount": 165082,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PAID",
+      "orderStatus": "CANCELLED",
+      "returnReason": "Color preference changed / Size expectation mismatch.",
+      "returnStatus": "REJECTED",
+      "trackingNumber": "TRACK-679782",
+      "carrier": "BlueDart Express",
+      "estimatedDelivery": "2026-07-20",
+      "createdAt": "2026-07-22T03:02:06.047Z",
+      "updatedAt": "2026-07-26T04:39:06.676Z"
+    },
+    {
+      "id": "ORD-2026-88492",
+      "userId": "usr_demo_002",
+      "userEmail": "user@nexusstore.com",
+      "userName": "Alex Johnson",
+      "items": [
+        {
+          "productId": "prod_2",
+          "productTitle": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+          "productImage": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+          "price": 28990,
+          "quantity": 1,
+          "selectedVariant": {
+            "color": "Black"
+          }
+        }
+      ],
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_demo_002",
+        "fullName": "Alex Johnson",
+        "phone": "+91 9123456789",
+        "street": "Flat 402, Green Park Heights, MG Road",
+        "landmark": "Near Cyber City Metro Station",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560001",
+        "country": "India",
+        "isDefault": true
+      },
+      "subtotal": 28990,
+      "discount": 2899,
+      "couponCode": "NEXUS10",
+      "gstAmount": 4696,
+      "shippingFee": 0,
+      "totalAmount": 30787,
+      "paymentMethod": "RAZORPAY",
+      "paymentStatus": "PAID",
+      "paymentDetails": {
+        "razorpayOrderId": "order_NxRzp_991823",
+        "razorpayPaymentId": "pay_NxRzp_771829",
+        "razorpaySignature": "sig_valid_verified_hash_2026"
+      },
+      "orderStatus": "CANCELLED",
+      "trackingNumber": "TRACK-640943",
+      "carrier": "BlueDart Express",
+      "estimatedDelivery": "2026-07-22",
+      "createdAt": "2026-07-20T03:02:06.046Z",
+      "updatedAt": "2026-07-26T04:39:04.571Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "addr_1",
+      "userId": "usr_demo_002",
+      "fullName": "Alex Johnson",
+      "phone": "+91 9123456789",
+      "street": "Flat 402, Green Park Heights, MG Road",
+      "landmark": "Near Cyber City Metro Station",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pincode": "560001",
+      "country": "India",
+      "isDefault": true
+    },
+    {
+      "id": "addr_1784996883805",
+      "userId": "usr_admin_001",
+      "fullName": "vishvas",
+      "phone": "7302424139",
+      "street": "bianuli",
+      "landmark": "",
+      "city": "binauli",
+      "state": "uttar pardesh",
+      "pincode": "250345",
+      "country": "India",
+      "isDefault": false
+    },
+    {
+      "id": "addr_1784997591500",
+      "userId": "usr_admin_001",
+      "fullName": "sdfxc",
+      "phone": "fdsz",
+      "street": "dsfsz",
+      "landmark": "",
+      "city": "dsf",
+      "state": "dsf",
+      "pincode": "dszfd",
+      "country": "India",
+      "isDefault": false
+    },
+    {
+      "id": "addr_1785037239030",
+      "userId": "usr_admin_001",
+      "fullName": "vis",
+      "phone": "dsa",
+      "street": "sd",
+      "landmark": "",
+      "city": "fsa",
+      "state": "asf",
+      "pincode": "sdf",
+      "country": "India",
+      "isDefault": true
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "productId": "prod_1",
+      "userId": "usr_demo_002",
+      "userName": "Alex Johnson",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "rating": 5,
+      "comment": "Incredible camera quality! The 5x periscope lens takes razor sharp portraits. Battery easily lasts 1.5 days of heavy use.",
+      "isVerifiedBuyer": true,
+      "createdAt": "2026-07-22T03:02:06.046Z"
+    },
+    {
+      "id": "rev_2",
+      "productId": "prod_2",
+      "userId": "usr_demo_002",
+      "userName": "Alex Johnson",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+      "rating": 5,
+      "comment": "Best noise cancellation for frequent flight travelers. Super lightweight and mic voice clarity on calls is unmatched.",
+      "isVerifiedBuyer": true,
+      "createdAt": "2026-07-18T03:02:06.046Z"
+    }
+  ],
+  "banners": [
+    {
+      "id": "b1",
+      "title": "Titanium. So Strong. So Light. So Pro.",
+      "subtitle": "Experience the new iPhone 15 Pro Max with A17 Pro Chip and instant cashback.",
+      "imageUrl": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=1600",
+      "linkUrl": "/product/prod_1",
+      "buttonText": "Shop iPhone 15 Pro",
+      "isActive": true,
+      "order": 1
+    },
+    {
+      "id": "b2",
+      "title": "Pure Audio Perfection",
+      "subtitle": "Sony WH-1000XM5 Noise Canceling Headphones at Flat ₹6,000 Off.",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=1600",
+      "linkUrl": "/product/prod_2",
+      "buttonText": "Explore Headphones",
+      "isActive": true,
+      "order": 2
+    }
+  ],
+  "tickets": [],
+  "logs": [
+    {
+      "id": "log_1785041785198_944q",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CANCEL",
+      "details": "Cancelled order ORD-2026-85241. Reason: sorry",
+      "timestamp": "2026-07-26T04:56:25.198Z"
+    },
+    {
+      "id": "log_1785041749789_lzwp",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "PAYMENT_SUCCESS",
+      "details": "Verified payment pay_rzp_1utwu4e2 for Order ORD-2026-85241",
+      "timestamp": "2026-07-26T04:55:49.789Z"
+    },
+    {
+      "id": "log_1785041748099_ef5q",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-85241 totaling ₹212282",
+      "timestamp": "2026-07-26T04:55:48.099Z"
+    },
+    {
+      "id": "log_1785040796556_xkaw",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-79501 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:56.556Z"
+    },
+    {
+      "id": "log_1785040793934_7gb5",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-75749 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:53.934Z"
+    },
+    {
+      "id": "log_1785040789259_0o93",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-39183 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:49.259Z"
+    },
+    {
+      "id": "log_1785040787482_d9mw",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-47107 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:47.482Z"
+    },
+    {
+      "id": "log_1785040785927_6eam",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-59932 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:45.927Z"
+    },
+    {
+      "id": "log_1785040780594_5xfq",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-68026 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:40.594Z"
+    },
+    {
+      "id": "log_1785040776416_pagt",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-61645 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:36.416Z"
+    },
+    {
+      "id": "log_1785040774436_v1ey",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-61305 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:34.436Z"
+    },
+    {
+      "id": "log_1785040772638_u084",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-77027 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:32.638Z"
+    },
+    {
+      "id": "log_1785040767927_u5os",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-36347 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:27.927Z"
+    },
+    {
+      "id": "log_1785040765592_k0ig",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-56240 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:25.592Z"
+    },
+    {
+      "id": "log_1785040763688_sr51",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-23702 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:23.688Z"
+    },
+    {
+      "id": "log_1785040758828_k2oz",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-52877 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:18.828Z"
+    },
+    {
+      "id": "log_1785040755575_9uu0",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-80941 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:15.575Z"
+    },
+    {
+      "id": "log_1785040751903_qbae",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-99067 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:11.903Z"
+    },
+    {
+      "id": "log_1785040748419_czwo",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-52499 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:08.419Z"
+    },
+    {
+      "id": "log_1785040746677_9vrw",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-90123 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:06.677Z"
+    },
+    {
+      "id": "log_1785040744572_k2ze",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-88492 status to CANCELLED",
+      "timestamp": "2026-07-26T04:39:04.572Z"
+    },
+    {
+      "id": "log_1785040739245_yz7o",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "RETURN_REJECTED",
+      "details": "Rejected return request for order ORD-2026-90123. Note: Rejected by Admin",
+      "timestamp": "2026-07-26T04:38:59.245Z"
+    },
+    {
+      "id": "log_1785040733976_f2el",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-97170 status to CANCELLED",
+      "timestamp": "2026-07-26T04:38:53.976Z"
+    },
+    {
+      "id": "log_1785040730723_lyun",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_UPDATE_STATUS",
+      "details": "Updated order ORD-2026-54443 status to CANCELLED",
+      "timestamp": "2026-07-26T04:38:50.723Z"
+    },
+    {
+      "id": "log_1785040650742_3nsf",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "PAYMENT_SUCCESS",
+      "details": "Verified payment pay_rzp_xb5jl8b3 for Order ORD-2026-54443",
+      "timestamp": "2026-07-26T04:37:30.742Z"
+    },
+    {
+      "id": "log_1785040649060_jq4w",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-54443 totaling ₹389282",
+      "timestamp": "2026-07-26T04:37:29.060Z"
+    },
+    {
+      "id": "log_1785040632201_lafl",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-97170 totaling ₹822223",
+      "timestamp": "2026-07-26T04:37:12.201Z"
+    },
+    {
+      "id": "log_1785040443363_2zub",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-79501 totaling ₹1139243",
+      "timestamp": "2026-07-26T04:34:03.363Z"
+    },
+    {
+      "id": "log_1785040389513_hz77",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-75749 totaling ₹730054",
+      "timestamp": "2026-07-26T04:33:09.513Z"
+    },
+    {
+      "id": "log_1785039759328_o63l",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-39183 totaling ₹528262",
+      "timestamp": "2026-07-26T04:22:39.328Z"
+    },
+    {
+      "id": "log_1785038964495_nwz2",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-47107 totaling ₹187490",
+      "timestamp": "2026-07-26T04:09:24.495Z"
+    },
+    {
+      "id": "log_1785038877081_c03e",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-59932 totaling ₹153282",
+      "timestamp": "2026-07-26T04:07:57.081Z"
+    },
+    {
+      "id": "log_1785038757851_6ghs",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-61305 totaling ₹153282",
+      "timestamp": "2026-07-26T04:05:57.851Z"
+    },
+    {
+      "id": "log_1785038662652_dh9l",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-77027 totaling ₹153282",
+      "timestamp": "2026-07-26T04:04:22.652Z"
+    },
+    {
+      "id": "log_1785038086489_yrjj",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-61645 totaling ₹187490",
+      "timestamp": "2026-07-26T03:54:46.489Z"
+    },
+    {
+      "id": "log_1785038070089_xno0",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-68026 totaling ₹187490",
+      "timestamp": "2026-07-26T03:54:30.089Z"
+    },
+    {
+      "id": "log_1785038061256_zbrw",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CANCEL",
+      "details": "Cancelled order ORD-2026-86922. Reason: n",
+      "timestamp": "2026-07-26T03:54:21.256Z"
+    },
+    {
+      "id": "log_1785038033589_gll2",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-86922 totaling ₹730054",
+      "timestamp": "2026-07-26T03:53:53.589Z"
+    },
+    {
+      "id": "log_1785038017688_nqu6",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-36347 totaling ₹730054",
+      "timestamp": "2026-07-26T03:53:37.688Z"
+    },
+    {
+      "id": "log_1784997090296_gn9w",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-56240 totaling ₹695846",
+      "timestamp": "2026-07-25T16:31:30.296Z"
+    },
+    {
+      "id": "log_1784997052261_wtgb",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-23702 totaling ₹389282",
+      "timestamp": "2026-07-25T16:30:52.261Z"
+    },
+    {
+      "id": "log_1784997044622_67mz",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "PAYMENT_SUCCESS",
+      "details": "Verified payment pay_rzp_ltzmtdq8 for Order ORD-2026-52877",
+      "timestamp": "2026-07-25T16:30:44.622Z"
+    },
+    {
+      "id": "log_1784997043114_3027",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-52877 totaling ₹259364",
+      "timestamp": "2026-07-25T16:30:43.114Z"
+    },
+    {
+      "id": "log_1784996899438_xvk1",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-80941 totaling ₹259364",
+      "timestamp": "2026-07-25T16:28:19.438Z"
+    },
+    {
+      "id": "log_1784996894453_brvt",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-99067 totaling ₹259364",
+      "timestamp": "2026-07-25T16:28:14.453Z"
+    },
+    {
+      "id": "log_1784996888724_hiq4",
+      "userId": "usr_admin_001",
+      "userName": "Vishvas Dhama",
+      "action": "ORDER_CREATE",
+      "details": "Created order ORD-2026-52499 totaling ₹259364",
+      "timestamp": "2026-07-25T16:28:08.724Z"
+    },
+    {
+      "id": "log_1784996089837_9wjy",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "USER_ROLE_CHANGE",
+      "details": "Changed user vishvasdhama@gmail.com role to USER",
+      "timestamp": "2026-07-25T16:14:49.837Z"
+    },
+    {
+      "id": "log_1784996080487_zf0l",
+      "userId": "usr_g_1784996080486",
+      "userName": "Vishvas Dhama",
+      "action": "GOOGLE_REGISTER",
+      "details": "Registered via Google Auth: vishvasdhama25@gmail.com",
+      "timestamp": "2026-07-25T16:14:40.487Z"
+    },
+    {
+      "id": "log_1784994029952_bl59",
+      "userId": "usr_g_1784993965484",
+      "userName": "Vishvas Dhama",
+      "action": "USER_ROLE_CHANGE",
+      "details": "Changed user vishvasdhama@gmail.com role to USER",
+      "timestamp": "2026-07-25T15:40:29.952Z"
+    },
+    {
+      "id": "log_1784994012302_5g5y",
+      "userId": "usr_g_1784993965484",
+      "userName": "Vishvas Dhama",
+      "action": "USER_ROLE_CHANGE",
+      "details": "Changed user user_7302424139@nexusstore.com role to USER",
+      "timestamp": "2026-07-25T15:40:12.303Z"
+    },
+    {
+      "id": "log_1784993994302_bv3e",
+      "userId": "usr_g_1784993965484",
+      "userName": "Vishvas Dhama",
+      "action": "USER_ROLE_CHANGE",
+      "details": "Changed user user_7302424139@nexusstore.com role to ADMIN",
+      "timestamp": "2026-07-25T15:39:54.302Z"
+    },
+    {
+      "id": "log_1784993965485_ppl8",
+      "userId": "usr_g_1784993965484",
+      "userName": "Vishvas Dhama",
+      "action": "GOOGLE_REGISTER",
+      "details": "Registered via Google Auth: vishvasdhama25@gmail.com",
+      "timestamp": "2026-07-25T15:39:25.485Z"
+    },
+    {
+      "id": "log_1784993939107_dg67",
+      "userId": "usr_otp_1784948992743",
+      "userName": "User 4139",
+      "action": "USER_LOGIN",
+      "details": "User logged in: user_7302424139@nexusstore.com",
+      "timestamp": "2026-07-25T15:38:59.107Z"
+    },
+    {
+      "id": "log_1784991377157_4lng",
+      "userId": "usr_g_1784991377156",
+      "userName": "vishvas dhama",
+      "action": "GOOGLE_REGISTER",
+      "details": "Registered via Google Auth: vdhama028@gmail.com",
+      "timestamp": "2026-07-25T14:56:17.157Z"
+    },
+    {
+      "id": "log_1784951172183_9fuu",
+      "userId": "SYSTEM",
+      "userName": "System",
+      "action": "OTP_SENT",
+      "details": "Sent OTP 922337 to 7302424139 (raw: 7302424139)",
+      "timestamp": "2026-07-25T03:46:12.183Z"
+    },
+    {
+      "id": "log_1784951139517_npa1",
+      "userId": "usr_g_1784951139516",
+      "userName": "vishu",
+      "action": "GOOGLE_REGISTER",
+      "details": "Registered via Google Auth: vishu@gmail.com",
+      "timestamp": "2026-07-25T03:45:39.517Z"
+    },
+    {
+      "id": "log_1784951091724_k18i",
+      "userId": "usr_1784951091634_0mhr",
+      "userName": "vansh",
+      "action": "USER_REGISTER",
+      "details": "New user registered: user_7302424123@nexusstore.com",
+      "timestamp": "2026-07-25T03:44:51.724Z"
+    },
+    {
+      "id": "log_1784950602875_z9cv",
+      "userId": "usr_otp_1784948992743",
+      "userName": "User 4139",
+      "action": "USER_LOGIN",
+      "details": "User logged in: user_7302424139@nexusstore.com",
+      "timestamp": "2026-07-25T03:36:42.875Z"
+    },
+    {
+      "id": "log_1784950569504_taqw",
+      "userId": "usr_g_1784950569503",
+      "userName": "Vishvas Dhama",
+      "action": "GOOGLE_REGISTER",
+      "details": "Registered via Google Auth: vishvasdhama25@gmail.com",
+      "timestamp": "2026-07-25T03:36:09.504Z"
+    },
+    {
+      "id": "log_1784949056338_z2l3",
+      "userId": "usr_otp_1784948992743",
+      "userName": "User 4139",
+      "action": "PASSWORD_RESET_SUCCESS",
+      "details": "Password reset successfully for user_7302424139@nexusstore.com",
+      "timestamp": "2026-07-25T03:10:56.338Z"
+    },
+    {
+      "id": "log_1784949046727_6ko0",
+      "userId": "usr_otp_1784948992743",
+      "userName": "User 4139",
+      "action": "PASSWORD_RESET_REQUEST",
+      "details": "Reset OTP sent to 7302424139",
+      "timestamp": "2026-07-25T03:10:46.727Z"
+    },
+    {
+      "id": "log_1784949014263_aloh",
+      "userId": "SYSTEM",
+      "userName": "System",
+      "action": "OTP_SENT",
+      "details": "Sent OTP 764442 to 9761821370 (raw: 9761821370)",
+      "timestamp": "2026-07-25T03:10:14.263Z"
+    },
+    {
+      "id": "log_1784948987069_sfef",
+      "userId": "SYSTEM",
+      "userName": "System",
+      "action": "OTP_SENT",
+      "details": "Sent OTP 288437 to 7302424139 (raw: 7302424139)",
+      "timestamp": "2026-07-25T03:09:47.069Z"
+    },
+    {
+      "id": "log_1",
+      "userId": "usr_admin_001",
+      "userName": "Nexus Admin",
+      "action": "SYSTEM_BOOT",
+      "details": "NexusStore E-Commerce Engine initialized with secure database schema.",
+      "timestamp": "2026-07-25T03:02:06.047Z"
+    }
+  ],
+  "settings": {
+    "storeName": "NexusStore E-Commerce",
+    "supportEmail": "support@nexusstore.com",
+    "supportPhone": "+91 (800) 123-4567",
+    "address": "Nexus Tech Park, 100 Feet Road, Indiranagar, Bengaluru - 560038",
+    "currency": "INR",
+    "currencySymbol": "₹",
+    "gstRatePercent": 18,
+    "freeShippingThreshold": 1000,
+    "flatShippingFee": 99
+  },
+  "wishlists": {
+    "usr_g_1784996080486": []
+  },
+  "carts": {
+    "usr_admin_001": []
+  }
+}
