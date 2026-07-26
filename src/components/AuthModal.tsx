@@ -239,21 +239,27 @@ return;
             setLoading(false);
             return;
           }
-         try {
- if (!confirmationResult) {
-  setErrorMsg("OTP session expired.");
-  return;
-}
+          try {
+            if (!confirmationResult) {
+              setErrorMsg('OTP session expired.');
+              setLoading(false);
+              return;
+            }
 
-await confirmationResult.confirm(otp);
-onClose();
-  onClose();
-  return;
-} catch {
-  setErrorMsg("Invalid OTP");
-  return;
-}
-         
+            await confirmationResult.confirm(otp);
+            const targetContact = phone.trim();
+            const res = await onVerifyOTP(targetContact, otp);
+            if (res.success) {
+              onClose();
+            } else {
+              setErrorMsg(res.message || 'OTP verification failed.');
+            }
+            return;
+          } catch (err: any) {
+            setErrorMsg(err?.message || 'Invalid OTP');
+            setLoading(false);
+            return;
+          }
         }
       } else if (mode === 'forgot') {
         const targetContact = email || phone;

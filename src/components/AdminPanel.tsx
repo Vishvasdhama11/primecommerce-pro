@@ -216,10 +216,38 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ isOpen, onClose, onRefre
 
       if (res.success) {
         setShowAddCoupon(false);
+        setNewCoupon({
+          code: '',
+          discountType: 'PERCENTAGE',
+          discountValue: '10',
+          minOrderAmount: '1000',
+          expiresAt: '2026-12-31'
+        });
         fetchAdminData();
+      } else {
+        alert(res.message || 'Failed to create coupon.');
       }
     } catch (err) {
       alert('Failed to create coupon.');
+    }
+  };
+
+  const handleDeleteCoupon = async (couponId: string) => {
+    if (!confirm('Delete this coupon permanently?')) return;
+    try {
+      const res = await fetch(`/api/admin/coupons/${couponId}`, {
+        method: 'DELETE',
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      }).then((r) => r.json());
+      if (res.success) {
+        fetchAdminData();
+      } else {
+        alert(res.message || 'Failed to delete coupon.');
+      }
+    } catch (err) {
+      alert('Failed to delete coupon.');
     }
   };
 
@@ -578,6 +606,31 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ isOpen, onClose, onRefre
                       ))}
                     </div>
 
+                    {/* Shipping Address & Payment Details */}
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 pt-3 border-t border-slate-800 text-xs text-slate-300">
+                      <div className="p-3 bg-slate-950/70 border border-slate-800 rounded-2xl">
+                      <p className="text-[11px] text-slate-400 uppercase tracking-wider font-bold mb-2">Shipping Address</p>
+                      <p className="font-semibold text-white">{o.shippingAddress?.fullName || 'No address available'}</p>
+                      <p>{o.shippingAddress?.street || 'Street not provided'}</p>
+                      {o.shippingAddress?.landmark && <p>{o.shippingAddress.landmark}</p>}
+                      <p>
+                        {o.shippingAddress?.city || 'City missing'}, {o.shippingAddress?.state || 'State missing'} - {o.shippingAddress?.pincode || 'PIN'}
+                      </p>
+                      <p className="mt-1">📞 {o.shippingAddress?.phone || 'Phone not available'}</p>
+                    </div>
+                    <div className="p-3 bg-slate-950/70 border border-slate-800 rounded-2xl">
+                      <p className="text-[11px] text-slate-400 uppercase tracking-wider font-bold mb-2">Payment & Coupon</p>
+                      <p className="text-slate-200">Method: <span className="font-semibold text-white">{o.paymentMethod || 'N/A'}</span></p>
+                      <p className="text-slate-200">Status: <span className="font-semibold text-white">{o.paymentStatus || 'PENDING'}</span></p>
+                      {o.couponCode && (
+                        <p className="mt-2 text-slate-200">Coupon: <span className="font-semibold text-emerald-300">{o.couponCode}</span></p>
+                      )}
+                      {o.trackingNumber && (
+                        <p className="mt-2 text-slate-200">Tracking: <span className="font-semibold text-white">{o.trackingNumber}</span></p>
+                      )}
+                    </div>
+                    </div>
+
                     {/* RETURN REQUEST ALERT BOX (If return requested or exists) */}
                     {(o.returnReason || o.orderStatus === 'RETURN_REQUESTED') && (
                       <div className="p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl space-y-2">
@@ -670,12 +723,28 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ isOpen, onClose, onRefre
 
               <div className="space-y-2">
                 {coupons.map((c) => (
-                  <div key={c.id} className="p-3 bg-slate-950/50 border border-slate-800 rounded-xl flex items-center justify-between text-xs">
+                  <div key={c.id} className="p-3 bg-slate-950/50 border border-slate-800 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between text-xs gap-3">
                     <div>
-                      <span className="font-extrabold text-amber-400">{c.code}</span>
-                      <span className="text-slate-400 ml-2">&bull; {c.discountValue}% OFF (Min ₹{c.minOrderAmount})</span>
+                      <p className="font-extrabold text-amber-400">{c.code}</p>
+                      <p className="text-slate-400 mt-1 text-[10px]">
+                        {c.discountType === 'PERCENTAGE'
+                          ? `${c.discountValue}% off`
+                          : `₹${c.discountValue} off`} • Min order ₹{c.minOrderAmount}
+                      </p>
+                      <p className="text-slate-400 mt-1 text-[10px]">Expires: {c.expiresAt}</p>
                     </div>
-                    <span className="text-emerald-400 font-bold">Active</span>
+                    <div className="flex items-center gap-2">
+                      <span className={`px-2 py-1 rounded-xl text-[10px] font-bold ${c.isActive ? 'bg-emerald-500/10 text-emerald-300 border border-emerald-500/20' : 'bg-slate-800 text-slate-400 border border-slate-700'}`}>
+                        {c.isActive ? 'Active' : 'Inactive'}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => handleDeleteCoupon(c.id)}
+                        className="px-2 py-1 bg-rose-600/90 hover:bg-rose-500 text-white rounded-xl text-[10px] font-bold"
+                      >
+                        Delete
+                      </button>
+                    </div>
                   </div>
                 ))}
               </div>
